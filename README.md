@@ -12,7 +12,7 @@
 
 &emsp;训练集目录包含总的训练样本列表total_list.txt与文本行图片及标注目录./train/imags。在论文中，作者随机从全部训练样本提取其70%做为训练train_list.txt与train.json；提取剩余的30%做为验证val_list.txt与val.json。./train/character_box为对应的字符框标注目录。
 
-<div align=left>
+<div align=center>
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw.png height=60>
   
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_ov.png height=60>
