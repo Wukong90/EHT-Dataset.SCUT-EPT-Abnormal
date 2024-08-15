@@ -21,4 +21,4 @@
 </div>
 
 
-&emsp;类似的,测试集目录包含有测试样本列表./test/test_list.txt及标注文件./test/test.json，文本行图像与标注位于./test/imgs。测试集未提供相应的字符集标注目录。
+&emsp;类似的,测试集目录包含有测试样本列表./test/test_list.txt及标注文件./test/test.json，文本行图像与标注位于./test/imgs。测试集未提供相应的字符框标注。
