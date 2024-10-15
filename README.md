@@ -8,7 +8,7 @@
 </div>
 
 
-(2)目录/train与/test为我们在论文“Leveraging Structure Knowledge and Deep Models for the Detection of Abnormal Handwritten Text”(已被 第七届中国模式识别与计算机视觉大会 录取 https://arxiv.org/submit/5928860/view )中使用到的训练集与测试集文本行,训练集与测试集来自不同的写字人,即同一写字人的样本不可能同时出现的训练集与测试集.在论文中,我们滤掉了原始样本中书写字符明显超出规定框中的样例.
+(2)目录/train与/test为我们在论文“<a href="https://arxiv.org/submit/5928860/view">Leveraging Structure Knowledge and Deep Models for the Detection of Abnormal Handwritten Text</p>”(已被 第七届中国模式识别与计算机视觉大会 录取  )中使用到的训练集与测试集文本行,训练集与测试集来自不同的写字人,即同一写字人的样本不可能同时出现的训练集与测试集.在论文中,我们滤掉了原始样本中书写字符明显超出规定框中的样例.
 
 &emsp;训练集目录包含总的训练样本列表total_list.txt与文本行图片及标注目录/train/imags.在论文中,作者随机从全部训练样本提取其70%做为训练(train_list.txt与train.json);提取剩余的30%做为验证(val_list.txt与val.json).目录/train/character_box为对应的字符框标注目录.
 
