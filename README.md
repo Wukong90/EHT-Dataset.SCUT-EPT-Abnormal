@@ -21,7 +21,7 @@
 
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_char.png height=60>
 </div>
-目录/train/train_sw_syn为使用"尺度扩展"策略为互换修改样本进行扩充的数据,训练阶段增加了合成数据的json文件为/train/train_syn.json.下面展示了一个经过“尺度扩展”前的原始样本与合成样本的例子:
+目录/train/train_sw_syn是使用"尺度扩展"策略为互换修改样本进行扩充的数据,训练阶段增加了合成数据的json文件为/train/train_syn.json.下面展示了一个经过“尺度扩展”前的原始样本与合成样本的例子:
 <div align=center>
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw_ori.png height=60>
 
