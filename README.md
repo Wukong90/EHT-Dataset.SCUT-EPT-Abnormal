@@ -12,7 +12,7 @@
 “<a href="https://arxiv.org/pdf/2410.11670">Leveraging Structure Knowledge and Deep Models for the Detection of Abnormal Handwritten Text</p>”
 (已被第七届中国模式识别与计算机视觉大会录取)中使用到的训练集与测试集文本行,训练集与测试集来自不同的写字人,即同一写字人的样本不可能同时出现的训练集与测试集.在论文中,我们滤掉了原始样本中书写字符明显超出规定框中的样例.
 
-&emsp;训练集目录包含总的训练样本列表total_list.txt与文本行图片及标注目录/train/imags.在论文中,作者随机从全部训练样本提取其70%做为训练(train_list.txt与train.json);提取剩余的30%做为验证(val_list.txt与val.json).目录/train/character_box为对应的字符框标注目录.
+&emsp;原始总的训练样本列表total_list.txt与文本行图片及标注目录/train/imags.在论文中,作者随机从全部训练样本提取其70%做为训练(train_list.txt与train.json);提取剩余的30%做为验证(val_list.txt与val.json).目录/train/character_box为对应的字符框标注目录.
 
 <div align=center>
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw.png height=60>
@@ -21,5 +21,13 @@
 
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_char.png height=60>
 </div>
+目录/train/train_sw_syn为使用"尺度扩展"策略为互换修改样本进行扩充的数据,最后得到的总训练json文件为/train/train_syn.json.下面展示了一个经过“尺度扩展”前的原始样本与合成样本的例子:
+<div align=center>
+<img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw_ori.png height=60>
+
+
+<img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw_ori_syn.png height=60>
+</div>
+另外一种论文中使用到的“动态位置变化”数据增强方法在网络训练过程中对每个batch的数据进行操作.
 
 &emsp;类似的,测试集目录包含有测试样本列表/test/test_list.txt及标注文件/test/test.json,文本行图像与标注位于/test/imgs.测试集未提供相应的字符框标注.
