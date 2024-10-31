@@ -21,13 +21,12 @@
 
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_char.png height=60>
 </div>
-目录/train/train_sw_syn为使用"尺度扩展"策略为互换修改样本进行扩充的数据,最后得到的总训练json文件为/train/train_syn.json.下面展示了一个经过“尺度扩展”前的原始样本与合成样本的例子:
+目录/train/train_sw_syn为使用"尺度扩展"策略为互换修改样本进行扩充的数据,训练阶段增加了合成数据的json文件为/train/train_syn.json.下面展示了一个经过“尺度扩展”前的原始样本与合成样本的例子:
 <div align=center>
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw_ori.png height=60>
 
-
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw_ori_syn.png height=60>
 </div>
-另外一种论文中使用到的“动态位置变化”数据增强方法在网络训练过程中对每个batch的数据进行操作.
+另外一种论文中使用的“动态位置变化”数据增强方法在网络训练过程中对每个batch数据进行操作.
 
 &emsp;类似的,测试集目录包含有测试样本列表/test/test_list.txt及标注文件/test/test.json,文本行图像与标注位于/test/imgs.测试集未提供相应的字符框标注.
