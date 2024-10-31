@@ -12,7 +12,7 @@
 “<a href="https://arxiv.org/pdf/2410.11670">Leveraging Structure Knowledge and Deep Models for the Detection of Abnormal Handwritten Text</p>”
 (已被第七届中国模式识别与计算机视觉大会录取)中使用到的训练集与测试集文本行,训练集与测试集来自不同的写字人,即同一写字人的样本不可能同时出现的训练集与测试集.在论文中,我们滤掉了原始样本中书写字符明显超出规定框中的样例.
 
-&emsp;原始总的训练样本列表total_list.txt与文本行图片及标注目录/train/imags.在论文中,作者随机从全部训练样本提取其70%做为训练(train_list.txt与train.json);提取剩余的30%做为验证(val_list.txt与val.json).目录/train/character_box为对应的字符框标注目录.
+&emsp;原始总的训练样本列表total_list.txt与文本行图片及标注目录/train/imags.在论文中,作者随机从全部训练样本提取其70%为训练集(train_list.txt与train.json);提取剩余的30%为验证集(val_list.txt与val.json).目录/train/character_box为对应的字符框标注目录.
 
 <div align=center>
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/train/sample_sw.png height=60>
