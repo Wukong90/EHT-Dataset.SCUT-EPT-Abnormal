@@ -42,9 +42,9 @@
 重叠原型1(对应论文中图2.Overlap II)：
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/SCUT-EPT-Abnormal/Sample/sample_ov1.png height=60>
 
-重叠原型2(对应论文中图2.Overlap III)：
+重叠原型2(Overlap III)：
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/SCUT-EPT-Abnormal/Sample/sample_ov2.png height=60>
 
-重叠原型3(对应论文中图2.Overlap IV)：
+重叠原型3(Overlap IV)：
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/SCUT-EPT-Abnormal/Sample/sample_ov3.png height=60>
 </div>
