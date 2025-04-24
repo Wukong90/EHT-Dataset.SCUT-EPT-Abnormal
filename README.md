@@ -48,3 +48,7 @@
 重叠原型ov3 (Overlap IV)：
 <img src=https://github.com/Wukong90/EHT-dataset/blob/main/SCUT-EPT-Abnormal/Sample/sample_ov3.png height=60>
 </div>
+
+# 引用
+
+如果您使用了我们的数据/代码或从事的研究与我们有关,请点赞并引用。
